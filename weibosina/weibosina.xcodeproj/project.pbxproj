@@ -11,7 +11,6 @@
 		1A33B2A71BC63EBB00C4F99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B2A61BC63EBB00C4F99C /* ViewController.swift */; };
 		1A33B2AA1BC63EBB00C4F99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A33B2A81BC63EBB00C4F99C /* Main.storyboard */; };
 		1A33B2AC1BC63EBB00C4F99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A33B2AB1BC63EBB00C4F99C /* Assets.xcassets */; };
-		1A33B2AF1BC63EBB00C4F99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A33B2AD1BC63EBB00C4F99C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		1A33B2A61BC63EBB00C4F99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A33B2A91BC63EBB00C4F99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A33B2AB1BC63EBB00C4F99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A33B2AE1BC63EBB00C4F99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A33B2B01BC63EBB00C4F99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				1A33B2A61BC63EBB00C4F99C /* ViewController.swift */,
 				1A33B2A81BC63EBB00C4F99C /* Main.storyboard */,
 				1A33B2AB1BC63EBB00C4F99C /* Assets.xcassets */,
-				1A33B2AD1BC63EBB00C4F99C /* LaunchScreen.storyboard */,
 				1A33B2B01BC63EBB00C4F99C /* Info.plist */,
 			);
 			path = weibosina;
@@ -121,7 +118,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A33B2AF1BC63EBB00C4F99C /* LaunchScreen.storyboard in Resources */,
 				1A33B2AC1BC63EBB00C4F99C /* Assets.xcassets in Resources */,
 				1A33B2AA1BC63EBB00C4F99C /* Main.storyboard in Resources */,
 			);
@@ -148,14 +144,6 @@
 				1A33B2A91BC63EBB00C4F99C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1A33B2AD1BC63EBB00C4F99C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A33B2AE1BC63EBB00C4F99C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = weibosina/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luoriver.weibosina;
@@ -259,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = weibosina/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luoriver.weibosina;
@@ -285,6 +275,7 @@
 				1A33B2B51BC63EBB00C4F99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
