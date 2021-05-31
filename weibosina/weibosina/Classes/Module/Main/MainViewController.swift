@@ -1,5 +1,5 @@
 //
-//  TabbarViewController.swift
+//  MainViewController.swift
 //  weibosina
 //
 //  Created by 李明禄 on 15/10/8.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabbarViewController: UITabBarController {
+class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

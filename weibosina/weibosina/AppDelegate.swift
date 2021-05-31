@@ -17,7 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        window?.rootViewController = tabb
+        //设置frame
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        //设置背影颜色
+        window?.backgroundColor = UIColor.redColor()
+        
+        //设置根控制器
+        window?.rootViewController = MainViewController()
+        //
+        window?.makeKeyAndVisible()
         
         return true
     }
