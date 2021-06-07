@@ -12,8 +12,16 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        addChildViewController()
+        
+    }
+    
+    //private的是类的内部参数,外部不可以访问
+    private func addChildViewController() {
+        let vc = HomeTableViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        addChildViewController(nav)
     }
 
     override func didReceiveMemoryWarning() {
