@@ -17,11 +17,27 @@ class MainViewController: UITabBarController {
         
     }
     
+    
+
+    
     //private的是类的内部参数,外部不可以访问
     private func addChildViewController() {
         let vc = HomeTableViewController()
+        
+        
+        //设置tabbar的颜色/
+        tabBar.tintColor = UIColor.orangeColor()
+        
+        //设置标题
+        vc.title = "首页"
+        
+         //设置tabbar图像
+        vc.tabBarItem.image = UIImage(named: "tabbar_home")
+        
         let nav = UINavigationController(rootViewController: vc)
         addChildViewController(nav)
+       
+        
     }
 
     override func didReceiveMemoryWarning() {
